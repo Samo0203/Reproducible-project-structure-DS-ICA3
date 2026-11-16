@@ -1,0 +1,27 @@
+{
+    "baseline": {
+        "accuracy": 0.6325,
+        "precision_macro": 0.31625,
+        "recall_macro": 0.5,
+        "f1_macro": 0.3874425727411945
+    },
+    "logistic_regression": {
+        "accuracy": 0.7275,
+        "precision_macro": 0.7073652553367142,
+        "recall_macro": 0.689104890968245,
+        "f1_macro": 0.694761234676804
+    },
+    "cross_validation_f1_scores": [
+        0.6717948717948719,
+        0.6679720186096328,
+        0.6627341651650631,
+        0.6911196911196911,
+        0.6726190476190477
+    ],
+    "mean_cv_f1": 0.6732479588616613,
+    "std_cv_f1": 0.009594594402214825,
+    "test_samples": 400,
+    "incorrect_predictions": 109,
+    "false_positives": 42,
+    "false_negatives": 67
+}
